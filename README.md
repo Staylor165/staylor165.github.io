@@ -161,7 +161,7 @@
 
     <div class="container">
         <header>
-            <img src="./images/Taco_Bell.svg" alt="Taco Bell Logo" class="logo">
+            <img src="Taco_Bell.svg" alt="Taco Bell Logo" class="logo">
             <div class="social-icons">
                 <a href="#" target="new"><img src="facebook.png" alt="facebook logo"></a>
                 <a href="#" target="new"><img src="twitter.png" alt="twitter logo"></a>
@@ -176,9 +176,9 @@
             <p class="marketing-copy">Got $3? Well, now you have an entire three-course meal! Start your meal off with an appetizer like the <a href="#" class="bold-names">Cheesy Roll Up</a> or <a href="#" class="bold-names">Chips and Nacho Cheese Sauce</a>. For the main dish, give the iconic <a href="#" class="bold-names">Beef Melt Burrito</a> a try or enjoy the <a href="#" class="bold-names">Cheesy Bean and Rice Burrito</a> instead. Top off your meal with a mouth-watering, dessert from the Taco Bell Cravings Value Menu such as <a href="#" class="bold-names">Cinnamom Twists</a>. Order fast food near you online from the Cravings Value Menu at Taco Bell today!</p>
 
             <div class="image-container">
-                <img src="./images/tacobell.jpg" alt="Image 1" class="zigzag-image">
-                <img src="./images/tacobell2.jpeg" alt="Image 2" class="zigzag-image">
-                <img src="./images/tacobell3.jpeg" alt="Image 3" class="zigzag-image">
+                <img src="tacobell.jpg" alt="Image 1" class="zigzag-image">
+                <img src="tacobell2.jpeg" alt="Image 2" class="zigzag-image">
+                <img src="tacobell3.jpeg" alt="Image 3" class="zigzag-image">
             </div>
 
             <a href="https://www.tacobell.com/food/cravings-value-menu" class="cta-button" target="new">Explore Now</a>
