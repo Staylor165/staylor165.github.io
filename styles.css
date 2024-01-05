@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.end-card {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.end-card .cta-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.end-card .cta-button:hover {
+    background-color: #444;
+}
+
+.end-card .marketing-copy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.end-card .social-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.end-card .social-button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.end-card .social-button:hover {
+    background-color: #444;
+}
+
+.end-card .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+}
+
+.end-card .logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .end-card {
+        height: 250px;
+    }
+    .end-card .cta-button {
+        font-size: 16px;
+    }
+    .end-card .marketing-copy {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .end-card {
+        height: 150px;
+    }
+    .end-card .cta-button {
+        font-size: 14px;
+    }
+    .end-card .marketing-copy {
+        font-size: 12px;
+    }
+}
