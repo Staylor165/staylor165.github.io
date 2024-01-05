@@ -32,7 +32,7 @@
             align-items: center;
             padding: 0;
             margin-top: 0;
-            background: url('images/taco-bell-cover.jpeg');
+            background: url('taco-bell-cover.jpeg');
             background-position: 0% 0%;
         }
 
